@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#particles-js{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+}
+.navbar{
+    font-family: 'Chango', cursive;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.logo-PHO{
+    width:60px;
+    height: 60px;
+    margin:0;
+}
+.navbar-brand{
+    margin-left:-490px;
+    font-weight: 400;
+}
+.ul-about{
+    float:right;
+}
+
+.abstract{
+    position: absolute;
+    color:#fff;
+    margin-top: 200px;
+    margin-left: 5%;
+    z-index: 2;
+}
+.abstract p{
+    width:680px;
+}
+
+.about-pg{
+    position: absolute;
+    height:95vh;
+    margin-top: 95vh;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #020a20 0%, #230333 74%);        
+    width:100%;
+}
+.about-pg-cn{
+    margin-top: 10px;
+    color:#ccc;
+    margin-left:47%;
+    font-family: 'Chango', cursive;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.staff{
+    position: relative;
+}
+.circle-staff{
+    margin: 0 auto;
+    background-color: #ccc;
+    height: 300px;
+    width:400px;
+    top:144px;
+    box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.89), 0 6px 20px 0 rgba(160, 160, 160, 0.884);    
+}
+.circle-staff p{
+    font-size: 40px;
+    color:#4d4855;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+.card{
+    margin-top:10px ;
+    float: left;
+    text-align: center;
+    margin-left:150px;
+}
+.btn-outline-light a{
+    color:#fff;
+}
+.mission{
+    top:100%;
+    position: absolute;
+    background-color: #ccc;
+    width:100%;
+    height:400px;
+}
+.dev-mission{
+    margin-top: 50px;
+}
+.dev-mission h1{
+    font-family: 'Chango', cursive;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    border-left: 2px solid #555;
+    padding-left:10px;
+}
+.dev-mission p{
+    width:950px;
+}
+.SVG{
+    width:400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    right:10px;
+}
+.all{
+    position:relative;
+}
+
+#carouselExampleCaptions{
+    position: absolute;
+    top: 1825px;
+    width:100%;
+    height:500px;
+}
+.d-block{
+    width:100%;
+    height:500px;
+}
+.results{
+    background-color: #EEE;
+    width:100%;
+    height:800px;
+    position: absolute;
+    top:2320px;
+}
+.results h1{
+    text-align: center;
+    font-family: 'Chango', cursive;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+}
+
+#scrollToTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #50ebff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#scrollToTop:hover {
+    background-color: #555;
+  }
+
+.text-results{
+    margin-left:50px ;
+    padding:10px;
+    border-left: 2px solid #555;
+}
+.imgthing{
+    position: absolute;
+    width:700px;
+    margin: 10px 420px;
+    box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.89), 0 6px 20px 0 rgba(160, 160, 160, 0.884);    
+
+}
+.footer{
+    position: absolute;
+    top:3067px;
+    width:100%;
+}
